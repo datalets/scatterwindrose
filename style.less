@@ -1,0 +1,18 @@
+@fgcolor: #fff;
+
+body { background: #000; }
+
+svg circle { fill: @fgcolor; }
+
+.axis {
+  path, line {
+    fill: none;
+    stroke: @fgcolor;
+    shape-rendering: crispEdges;
+  }
+  text {
+    fill: @fgcolor;
+    font-family: sans-serif;
+    font-size: 11px;
+  }
+}
